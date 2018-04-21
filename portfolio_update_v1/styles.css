@@ -15,21 +15,36 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #000000;
 }
 a:hover {
   color: #6633ff;
 }
 
+h1 {
+  text-transform: uppercase;	
+}
+
+h2 {
+  color: seagreen;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+
+}
+
 /* Section Styles */
 
 .main-nav {
+  font-family: 'Roboto', sans-serif;
   width: 100%;
-  background: black;
+  background: #2b2b2b;
   min-height: 30px;
   padding: 10px;
   position: fixed;
   text-align: center;
+  color: white;
+  text-transform: uppercase;
+
 }
 .nav {
   display: flex;
@@ -50,18 +65,31 @@ a:hover {
 }
 .nav a {
   transition: all .5s;
+  color: #fff;
+  background-color: #404040;
+  padding: 8px;
+  border-radius: 5px;
 }
 .nav a:hover {
-  color: white
+  color: seagreen;
+  text-decoration: underline;
+  text-decoration-color: seagreen;
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/starburstBG.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
+
 }
+
+.headerCity {
+  font-size: small;
+  color: #BBB;
+}
+
 header {
   line-height: 1.5;
 }
@@ -74,7 +102,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -87,7 +115,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: orange;
+  color: #ffffff;
 }
 .card {
   margin: 30px;
@@ -100,7 +128,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #336666;
 }
 
 ul.skills {
@@ -122,7 +150,7 @@ ul.skills {
 }
 
 footer {
-  width: 100%;
+  width: 80%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
 }
