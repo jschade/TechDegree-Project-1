@@ -32,6 +32,11 @@ h2 {
 
 }
 
+h3 {
+	color: seagreen;
+	text-transform: uppercase;
+}
+
 /* Section Styles */
 
 .main-nav {
@@ -67,12 +72,11 @@ h2 {
   transition: all .5s;
   color: #fff;
   background-color: #404040;
-  padding: 8px;
+  padding: 10px;
   border-radius: 5px;
 }
 .nav a:hover {
   color: seagreen;
-  text-decoration: underline;
   text-decoration-color: seagreen;
 }
 
@@ -127,8 +131,49 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.card a{
+	color: seagreen;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.card a:hover{
+	color: black;
+}
+
+
 .card:hover {
-  border-color: #336666;
+  border-color: seagreen;
+}
+
+.myprojects a{
+	color: seagreen;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.myprojects a:hover{
+	color: black;
+}
+
+.graphicDesign {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+.graphicDesign img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
 }
 
 ul.skills {
